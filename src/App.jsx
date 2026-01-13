@@ -2,6 +2,7 @@
 import './App.css';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router';
+import { useParams } from 'react-router';
 
 import PokemonList from './components/PokemonList/PokemonList';
 import NavBar from './components/NavBar/NavBar';
